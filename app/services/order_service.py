@@ -48,13 +48,7 @@ def upsert_mapping_order(db: Session, source_id: str, c5_num: str, extra: dict |
 
 
 def apply_order_defaults(order: dict) -> dict:
-    """
-    Regras do documento:
-    - C5_BIEFPGA = 'BOL'
-    - C5_TIPO    = 'N'
-    - C5_NATUREZ = '2001'
-    - C6_LOCAL   = '13' (nos itens)
-    """
+   
     o = dict(order)
 
     o.setdefault("C5_BIEFPGA", "BOL")
@@ -73,13 +67,7 @@ def apply_order_defaults(order: dict) -> dict:
 
 
 def build_idempotency_key(order: dict) -> str:
-    """
-    Preferência:
-    - C5_NUMEXT (documento usa como identificador externo)
-    Alternativas:
-    - C5_BIEPRE
-    - C5_CPEDX
-    """
+    
     for k in ("C5_NUMEXT", "C5_BIEPRE", "C5_CPEDX"):
         v = str(order.get(k, "")).strip()
         if v:
