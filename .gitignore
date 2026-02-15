@@ -19,6 +19,8 @@ build/
 # DB local
 app.db
 *.sqlite3
+*.sqlite
+
 
 # Logs
 *.log
