@@ -63,6 +63,25 @@ Healthcheck:
 
 ---
 
+---
+
+## Rodar com Docker
+
+1. Configure o `.env` (use o `.env.example` como base)
+
+2. Subir com Docker Compose:
+
+- docker compose up --build
+
+3. Acessar:
+
+- Health: http://127.0.0.1:8000/health
+- Docs: http://127.0.0.1:8000/docs
+
+---
+
+---
+
 ## Testes (PowerShell)
 
 ### 1) Configurar a API Key na sessão (sem gravar no repo)
