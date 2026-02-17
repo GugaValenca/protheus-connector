@@ -1,7 +1,36 @@
 # Protheus Connector (TOTVS Protheus Integration)
 
-A connector built with **FastAPI** to integrate with **TOTVS Protheus** services (WSGETPEDX, WSCUSTOMERS, WSSALESORDERS).  
+A connector built with **FastAPI** to integrate with **TOTVS Protheus** services (**WSGETPEDX**, **WSCUSTOMERS**, **WSSALESORDERS**).  
 Includes **API Key authentication**, **idempotency**, **sync logging**, and **local persistence** for mapping and runs.
+
+---
+
+## 🧩 Tech Stack (Badges)
+
+### Languages
+
+![Python](https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+### Frameworks
+
+![FastAPI](https://img.shields.io/badge/FASTAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Uvicorn](https://img.shields.io/badge/UVICORN-111827?style=for-the-badge&logo=uvicorn&logoColor=white)
+
+### Libraries
+
+![Pydantic](https://img.shields.io/badge/PYDANTIC-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLALCHEMY-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
+![HTTPX](https://img.shields.io/badge/HTTPX-2F6FEB?style=for-the-badge&logo=python&logoColor=white)
+
+### Database
+
+![SQLite](https://img.shields.io/badge/SQLITE-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+
+### DevOps / Tools
+
+![Docker](https://img.shields.io/badge/DOCKER-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/GIT-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=white)
 
 ---
 
@@ -18,26 +47,6 @@ Includes **API Key authentication**, **idempotency**, **sync logging**, and **lo
   - sync runs history
 - 📚 Swagger UI / OpenAPI docs (`/docs`)
 - 🐳 Docker support (Dockerfile + docker-compose)
-
----
-
-## 🛠️ Tech Stack
-
-### Backend
-
-![Python](https://img.shields.io/badge/Python-000?logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-000?logo=fastapi&logoColor=white)
-![Uvicorn](https://img.shields.io/badge/Uvicorn-000?logo=uvicorn&logoColor=white)
-![Pydantic](https://img.shields.io/badge/Pydantic-000?logo=pydantic&logoColor=white)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-000?logo=sqlalchemy&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-000?logo=sqlite&logoColor=white)
-![HTTPX](https://img.shields.io/badge/HTTPX-000?logo=python&logoColor=white)
-
-### Tools / DevOps
-
-![Docker](https://img.shields.io/badge/Docker-000?logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-000?logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-000?logo=github&logoColor=white)
 
 ---
 
